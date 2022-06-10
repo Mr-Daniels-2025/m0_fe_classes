@@ -3,6 +3,23 @@
 // it should have a color property, that is silver by default
 // it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning and end of the string
 
+class Unicorn {
+  constructor(name){
+    this.color = "silver";
+    this.name = name;
+  }
+  say(string_received) {
+    this.string_received = string_recieved;
+    console.log(`*~* ${string_received} *~*`);
+
+  }
+}
+var unicorn_info = new Unicorn("random name");
+//unicorn_info.say("string test");
+console.log(unicorn_info);
+
+
+
 
 
 // Write a class called Vampire
